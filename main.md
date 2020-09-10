@@ -93,6 +93,26 @@ transition : "default"
 * JavaScript API {.fragment .fade-in-then-semi-out}
 ```
 
+--
+
+表も作れる
+|  A  |  B  |  C  |
+|:----|:---:|----:|
+|  ○  |  ×  |  ×  |
+|  ×  |  ○  |  ×  |
+|  ×  |  ×  |  ○  |
+
+--
+
+画像も使える
+![画像](photo.jpeg)
+
+--
+
+<!-- .slide: data-background="#f5deb3" -->
+背景色も変えられる
+
+
 ---
 
 # 意識高そう！
