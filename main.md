@@ -7,6 +7,14 @@ transition : "default"
 
 ---
 
+# 自己紹介
+name:<br>
+age :<br>
+like:<br>
+
+
+---
+
 ## スライド作成と言えば
 * MS PowerPoint{.fragment .highlight-current-red}
 * Keynote{.fragment .highlight-current-blue}
