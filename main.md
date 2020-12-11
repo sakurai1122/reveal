@@ -8,10 +8,19 @@ transition : "default"
 ---
 
 # 自己紹介
-name:<br>
-age :<br>
-like:<br>
-
+<div>
+name:櫻井翔太<br>
+</div>
+<div>
+age :20<br>
+</div>
+<div>
+like:観光,食事<br>
+</div>
+<div>
+LT経験:高専カンファレンス<br>
+プレゼン経験:全国高専プログラミングコンテスト
+</div>
 
 ---
 
@@ -120,6 +129,23 @@ like:<br>
 <!-- .slide: data-background="#f5deb3" -->
 背景色も変えられる
 
+--
+
+javascriptも埋め込める<br>
+<input type="text" class="text" id="inp1"></input>
++
+<input type="text" class="text" id="inp2"></input>
+=
+<input type="text" class="text" id="out"></input>
+<button type="button" value="計算" onclick="fun_click()"></button>
+
+<script>
+function fun_click()
+{
+    var inp1 = document.getElementById('inp1');
+    var inp2 = document.getElementById('inp2');document.getElementById('out').value = inp1 + inp2;
+}
+</script>
 
 ---
 
